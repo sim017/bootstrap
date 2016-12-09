@@ -1,0 +1,52 @@
+body{
+	padding-left: 20px;
+	padding-right:20px;
+}
+.jumbotron
+{   
+	
+	
+	text-align: center;
+	
+}
+@media(min-width:500px)
+{
+	.jumbotron{
+		border:0px;
+	}
+}
+.container{
+	text-align: center;
+	font-size: 36sp;
+}
+.nav-justified{
+	background-color: #eee;
+	border:2px solid #ccc;
+	border-radius: 5px;
+}
+.nav-justified>li>a{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	background-image: -webkit-gradient(linear,left top,left bottom from (aqua) to( #eee));
+	 background-image: -webkit-linear-gradient(top, aqua 0%, #e5e5e5 100%);
+  background-image:      -o-linear-gradient(top, aqua 0%, #e5e5e5 100%);
+  background-image:         linear-gradient(to bottom, aqua 0%,#e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='aqua', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #d5d5d5;
+	
+}
+.nav-justified>.active>a,
+.nav-justified>.active>a:hover,
+.nav-justified>.active>a:focus{
+	background-color: #ddd;
+	background-image: none;
+	
+}
